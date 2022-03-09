@@ -1,19 +1,19 @@
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
-type triangle struct {
-	size int
-}
+// type triangle struct {
+// 	size int
+// }
 
-func (t triangle) perimeter() int {
-	return t.size * 3
-}
+// func (t triangle) perimeter() int {
+// 	return t.size * 3
+// }
 
-func main() {
-	t := triangle{3}
-	fmt.Println("Perimeter:", t.perimeter())
-}
+// func main() {
+// 	t := triangle{3}
+// 	fmt.Println("Perimeter:", t.perimeter())
+// }
 
 // type 構造体 struct {
 //     // 定義
